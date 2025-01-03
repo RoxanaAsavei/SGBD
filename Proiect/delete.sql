@@ -20,4 +20,10 @@ DROP TABLE sectie_ras CASCADE CONSTRAINTS;
 DROP TABLE proceduri_ras CASCADE CONSTRAINTS;
 DROP TABLE pacienti_ras CASCADE CONSTRAINTS;
 DROP TABLE angajati_ras;
+
+DROP SEQUENCE secv_id_medic;
+DROP SEQUENCE secv_id_asis;
+DROP SEQUENCE secv_id_nemed;
+DROP SEQUENCE secv_id_adm;
+DROP SEQUENCE secv_id_angajat;
 --------------------------------------------------
