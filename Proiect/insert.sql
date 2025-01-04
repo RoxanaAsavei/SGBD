@@ -126,13 +126,13 @@ INSERT INTO  proceduri_ras
 VALUES (10, 'Bronhoscopie', 5, 1300, '1 zi');
 
 INSERT INTO proceduri_ras
-VALUES (11, 'Toracenteză', 5, 500, '1 zi');
+VALUES (11, 'Toracentez?', 5, 500, '1 zi');
 
 INSERT INTO proceduri_ras
 VALUES (12, 'Test de stimulare cu TRH', 6, 450, '3 ore');
 
 INSERT INTO proceduri_ras
-VALUES (13, 'Biopsie tiroidiană cu ac fin', 6, 450, '30 min');
+VALUES (13, 'Biopsie tiroidian? cu ac fin', 6, 450, '30 min');
 -----------------------------------------------------------
 
 CREATE SEQUENCE secv_id_angajat
@@ -763,5 +763,12 @@ VALUES (5, 3, 4, 7, TO_DATE('2024/03/04', 'yyyy/mm/dd'));
 
 INSERT INTO pacient_medic_proced_ras
 VALUES (6, 3, 13, 7, TO_DATE('2024/03/04', 'yyyy/mm/dd'));
+
+INSERT INTO pacient_medic_proced_ras
+VALUES (7, 3, 9, 2, SYSDATE);
+
+INSERT INTO pacient_medic_proced_ras
+VALUES (7, 3, 9, 1, SYSDATE);
+
 
 COMMIT;
